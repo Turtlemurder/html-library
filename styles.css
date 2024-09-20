@@ -1,0 +1,162 @@
+/* DONT DELETE THIS */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css');
+/* WRITE YOUR CODE BELOW */
+
+body {
+  padding: 0px 15px;
+  width: 340px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.cover-book-main {
+  width: 110px;
+  height: 160px;
+  border-radius: 5px;
+}
+.cover-book {
+  width: 70px;
+  height: 110px;
+  border-radius: 5px;
+}
+.title-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffcf33;
+  position: relative;
+  width: 340px;
+  height: 100px;
+  padding: 0px 15px;
+  left: -15px;
+  top: -10px;
+  font-size: 20px;
+  font-weight: 300;
+}
+.search-book {
+  display: flex;
+  position: relative;
+  top: -30px;
+  justify-content: space-between;
+  padding: 15px 10px;
+  border-radius: 25px;
+  border-style: hidden;
+  width: 300px;
+  background-color: white;
+  box-shadow: 0px 5px 1em rgba(0, 0, 0, 10%);
+}
+.search-input {
+  border-style: hidden;
+  opacity: 20%;
+  padding: 0px 20px;
+}
+.search-bg {
+  display: flex;
+  justify-content: center;
+}
+.glass {
+  opacity: 20%;
+}
+.title-sub {
+  font-size: 25px;
+  font-weight: 600;
+  margin: 10px 0px;
+}
+.main-book {
+  display: flex;
+  padding: 10px 0px;
+}
+.spec-main {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 15px;
+}
+.title-sub-sub {
+  font-size: 24px;
+  font-weight: 200;
+}
+.spec-sub {
+  opacity: 20%;
+  line-height: 150%;
+}
+.stars {
+  padding: 10px 0px;
+  transform: scale(70%);
+  position: relative;
+  transform-origin: left;
+}
+.types-book {
+  display: flex;
+}
+.type-book {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f7f7f7;
+  width: 80px;
+  height: 30px;
+  border-radius: 5px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  font-size: 13px;
+}
+.main-btns {
+  display: flex;
+  justify-content: space-between;
+}
+.bookmark {
+  width: 30px;
+  height: 30px;
+  background-color: #ffcf33;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bookbtn {
+  background-color: black;
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+  opacity: 80%;
+}
+.other-books {
+  overflow-x: scroll;
+  display: flex;
+}
+.rating-book {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 70px;
+  margin-right: 25px;
+  justify-content: center;
+}
+.little-stars {
+  width: max-content;
+  transform-origin: center;
+  transform: scale(50%);
+}
+.author-pic {
+  width: 120px;
+  height: 150px;
+  border-radius: 5px;
+  padding-right: 5px;
+}
+.spec-author {
+  padding-top: 5px;
+}
+.author {
+  display: flex;
+  padding: 10px 0px;
+}
+.spec-sub {
+  margin: 10px 0px;
+  line-height: 110%;
+}
